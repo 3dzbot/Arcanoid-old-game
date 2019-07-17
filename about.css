@@ -1,0 +1,30 @@
+.goToMenu {
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+.goToMenu:hover {
+    background-color: aquamarine;
+}
+.hello {
+    height: 60px;
+    padding-top: 30px;
+    margin: 20px auto;
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    background-color: burlywood;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+}
+body {
+    background-color: #ccc;
+}

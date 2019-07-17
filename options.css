@@ -1,0 +1,62 @@
+body {
+    background-color: #ccc;
+}
+.menu {
+    background-color: beige;
+    height: 440px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+.caption {
+    margin: -5px;
+    padding: 5px;
+    background-color: #ccc;
+}
+.save {
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 5px;
+}
+#blue {
+    width: 60px;
+    float: left;
+    padding: 4px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: blue;
+}
+#red {
+    width: 60px;
+    float: left;
+    padding: 4px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: red;
+}
+#green {
+    width: 60px;
+    float: left;
+    padding: 4px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: green;
+}
+.colors {
+    margin-top: -30px;
+    margin-left: 250px;
+}
+.optcolor {
+    background-color: cornflowerblue;
+}
+.menu {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 350px;
+}

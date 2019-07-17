@@ -1,0 +1,36 @@
+body {
+    background-color: #9cdcfe;
+}
+.menu {
+    background-color: aqua;
+    height: 440px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.caption {
+    padding: 5px;
+    border-radius: 10px;
+    margin: -5px;
+    background-color: beige;
+}
+.play, .options, .about, .aboutcap {
+    padding: 5px;
+    margin: 20px;
+    background-color: coral;
+    border-radius: 10px;
+}
+.play:hover, .options:hover, .about:hover {
+    padding: 5px;
+    margin: 20px;
+    background-color: chocolate;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.aboutcap {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+}

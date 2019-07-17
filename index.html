@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arcanoid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="flexBlock">
+    <div class="blockLeft">
+        <div id="start" class="btn">Play</div>
+    </div>
+    <canvas id="canvas" width="700" height="900" style="width: 37%"></canvas>
+    <div class="blockRight">
+        <div class="bricksColor">
+            <div class="titleOption">Цвет блоков</div>
+            <div class="optionFlex">
+                <div id="redBlock" class="btn red"></div>
+                <div id="blueBlock" class="btn blue"></div>
+                <div id="greenBlock" class="btn green"></div>
+            </div>
+        </div>
+        <div class="ballColor">
+            <div class="titleOption">Цвет мяча</div>
+            <div class="optionFlex">
+                <div id="redBall" class="btn red"></div>
+                <div id="blueBall" class="btn blue"></div>
+                <div id="greenBall" class="btn green"></div>
+            </div>
+        </div>
+        <div class="bricksColor">
+            <div class="titleOption">Цвет площадки</div>
+            <div class="optionFlex">
+                <div id="redPaddle" class="btn red"></div>
+                <div id="bluePaddle" class="btn blue"></div>
+                <div id="greenPaddle" class="btn green"></div>
+            </div>
+        </div>
+    <div class="menu" onclick="document.location='menu.html'">Menu</div>
+    <script src="script.js"></script>
+</body>
+</html>
